@@ -1,0 +1,13 @@
+<h1>Listado de productos</h1>
+<ul>
+    <li *ngFor="let producto of productos"> 
+        <h5>{{producto.nombre}}</h5>
+        <h6>{{producto.id}}</h6>
+        <img src={{producto.imagen.src}} alt={{producto.imagen.alt}} />
+        </li>
+
+        <div *ngIf="cargando" class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+</ul>
+
