@@ -4,7 +4,6 @@ import { catchError, map, tap } from 'rxjs/operators';
 import { IProducto } from './IProducto';
 import { Observable, of } from 'rxjs';
 import { IImagen } from './IImagen';
-import { INasa } from './INasa';
 
 @Injectable({
   providedIn: 'root'
