@@ -4,6 +4,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 import { IProducto } from './IProducto';
 import { Observable, of } from 'rxjs';
 import { IImagen } from './IImagen';
+import { INasa } from './INasa';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,6 @@ import { IImagen } from './IImagen';
 export class ProductosService {
 
   private apiUrlBase = "api/productos"
-
   constructor(private http: HttpClient){}
  
   //CRUD

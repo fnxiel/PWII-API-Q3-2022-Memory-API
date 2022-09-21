@@ -9,10 +9,10 @@ export class MemoriaDatosService implements InMemoryDbService {
 
   createDb(){
     const productos: IProducto[] = [
-      {id: 1, nombre: "Mouse", imagen: {src: "#", alt: "Descripcion de la imagen"}},
-      {id: 2, nombre: "Teclado", imagen: {src: "#", alt: "Descripcion de la imagen"}},
-      {id: 3, nombre: "Monitor", imagen: {src: "#", alt: "Descripcion de la imagen"}},
-      {id: 4, nombre: "Memoria", imagen: {src: "#", alt: "Descripcion de la imagen"}}
+      {id: 1, nombre: "Mouse", imagen: {src: "https://picsum.photos/200/300", alt: "Descripcion de la imagen"}},
+      {id: 2, nombre: "Teclado", imagen: {src: "https://picsum.photos/200/300", alt: "Descripcion de la imagen"}},
+      {id: 3, nombre: "Monitor", imagen: {src: "https://picsum.photos/200/300", alt: "Descripcion de la imagen"}},
+      {id: 4, nombre: "Memoria", imagen: {src: "https://picsum.photos/200/300", alt: "Descripcion de la imagen"}}
     ]
     return {productos}
   }
